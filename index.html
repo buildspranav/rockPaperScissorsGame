@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header>
+    <h1 id="game-title">Rock Paper Scissors</h1>
+  </header>
+  <main>
+    <div id="scores-container">
+      <div id="player-score">
+        <h2 class="score-title">Player Score: __ </h2>
+      </div>
+      <div id="computer-score">
+        <h2 class="score-title">Computer Score: __ </h2>
+      </div>
+    </div>
+    <div id="rock-paper-scissors-container">
+      <div id="rock">
+          <div class="image">
+            <img onclick="playerChoice='paper'; game();"src="https://raw.githubusercontent.com/guitarjak/rock-paper-scissors-supersimpledev/693acc850eedda2a6fe1241271335abd3ad2bd60/images/paper-emoji.png">
+          </div>
+          <h3 class="image-title">Paper</h3>
+      </div>
+      <div id="paper">
+        <div class="image">
+          <img onclick="playerChoice='rock'; game();" src="https://raw.githubusercontent.com/guitarjak/rock-paper-scissors-supersimpledev/693acc850eedda2a6fe1241271335abd3ad2bd60/images/rock-emoji.png">
+        </div>
+        <h3 class="image-title">Rock</h3>
+      </div>
+      <div id="Scissor">
+        <div class="image">
+          <img onclick="playerChoice='scissor'; game();" src="https://raw.githubusercontent.com/guitarjak/rock-paper-scissors-supersimpledev/693acc850eedda2a6fe1241271335abd3ad2bd60/images/scissors-emoji.png">
+        </div>
+        <h3 class="image-title">Scissor</h3>
+      </div>
+    </div>
+    <section id="result-section">
+      <h3 id="result">Result: __________________</h3>
+    </section>
+  </main>
+    
+</body>
+</html>
