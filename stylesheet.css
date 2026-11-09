@@ -10,9 +10,12 @@ html,body{
 #game-title{
   padding-top: 8px;
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
   text-decoration: underline;
   cursor: pointer;
+}
+#player-score,#computer-score{
+  font-size: 16px;
 }
 #game-title:hover{
   color: rgb(255, 232, 190);
@@ -58,7 +61,17 @@ img:active{
   font-size: 32px;
   color: rgb(206, 206, 206);
 }
-#result{
+#choice-container{
+  display: flex;
+  padding-left: 32px;
+  padding-right: 48px;
+  justify-content: space-evenly;
+  padding-bottom: 16px;
+}
+.choice{
+  color: yellow;
+}
+#result,.choice{
   text-align: center;
   font-size: 36px;
 }
